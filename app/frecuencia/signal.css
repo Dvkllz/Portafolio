@@ -365,7 +365,7 @@ html[data-theme='light'] .sig-header-tools .locale-switch button[aria-pressed='t
   position: absolute;
   font-size: 75px;
   top: -0.18em;
-  right: -0.08em;
+  right: -0.72em;
   color: var(--sig-lime);
   font-weight: 400;
   line-height: 1;
