@@ -1262,14 +1262,6 @@ html[data-theme='light'] .sig-header-tools .locale-switch button[aria-pressed='t
   padding-bottom: 12px;
   border-bottom: 1px dashed #929c80;
 }
-.sig-receipt > svg {
-  position: absolute;
-  left: 50%;
-  right: auto;
-  top: 17px;
-  width: 19px;
-  transform: translateX(-50%);
-}
 .sig-receipt > strong {
   display: block;
   font:
@@ -2725,13 +2717,6 @@ html[data-theme='light'] .sig-header-tools .locale-switch button[aria-pressed='t
   .sig-receipt > strong {
     font-size: 33px;
     margin-top: 10px;
-  }
-  .sig-receipt > svg {
-    left: 50%;
-    right: auto;
-    top: 14px;
-    width: 15px;
-    transform: translateX(-50%);
   }
   .sig-receipt > span {
     font-size: 4px;

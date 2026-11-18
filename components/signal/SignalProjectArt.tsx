@@ -1,5 +1,5 @@
  'use client';
-import { ArrowUpRight, FileText, Sparkles } from 'lucide-react';
+import { ArrowUpRight, Sparkles } from 'lucide-react';
 import type { Project } from '@/data/portfolio';
 import { useSiteSettings } from '@/components/LocaleThemeProvider';
 
@@ -11,7 +11,6 @@ export default function SignalProjectArt({ project }: { project: Project }) {
         <span className="sig-art-caption">{locale === 'es' ? 'DOCUMENTOS → INFORMACIÓN' : 'DOCUMENTS → INSIGHT'}</span>
         <div className="sig-receipt">
           <span>CUENTAI / {locale === 'es' ? 'ARCHIVO DIGITAL' : 'DIGITAL ARCHIVE'}</span>
-          <FileText size={26} />
           <strong>
             {locale === 'es' ? 'TODO' : 'EVERYTHING'}
             <br />
