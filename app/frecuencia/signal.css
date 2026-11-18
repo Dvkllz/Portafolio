@@ -364,8 +364,8 @@ html[data-theme='light'] .sig-header-tools .locale-switch button[aria-pressed='t
   font-family: Arial, sans-serif;
   position: absolute;
   font-size: 75px;
-  top: 0;
-  right: 13%;
+  top: -0.18em;
+  right: -0.08em;
   color: var(--sig-lime);
   font-weight: 400;
   line-height: 1;
@@ -1264,9 +1264,11 @@ html[data-theme='light'] .sig-header-tools .locale-switch button[aria-pressed='t
 }
 .sig-receipt > svg {
   position: absolute;
-  right: 22px;
+  left: 50%;
+  right: auto;
   top: 17px;
   width: 19px;
+  transform: translateX(-50%);
 }
 .sig-receipt > strong {
   display: block;
@@ -2192,7 +2194,7 @@ html[data-theme='light'] .sig-header-tools .locale-switch button[aria-pressed='t
   }
   .sig-title-star {
     font-size: 58px;
-    right: 4%;
+    right: -0.04em;
   }
   .sig-receiver-body {
     padding: 20px;
@@ -2292,7 +2294,7 @@ html[data-theme='light'] .sig-header-tools .locale-switch button[aria-pressed='t
     font-size: clamp(60px, 20vw, 132px);
   }
   .sig-title-star {
-    right: 17%;
+    right: 2%;
     font-size: 65px;
   }
   .sig-hero-tag {
@@ -2660,7 +2662,7 @@ html[data-theme='light'] .sig-header-tools .locale-switch button[aria-pressed='t
   }
   .sig-title-star {
     font-size: 48px;
-    right: 9%;
+    right: 1%;
   }
   .sig-hero-actions {
     gap: 22px;
@@ -2725,9 +2727,11 @@ html[data-theme='light'] .sig-header-tools .locale-switch button[aria-pressed='t
     margin-top: 10px;
   }
   .sig-receipt > svg {
-    right: 15px;
+    left: 50%;
+    right: auto;
     top: 14px;
     width: 15px;
+    transform: translateX(-50%);
   }
   .sig-receipt > span {
     font-size: 4px;
